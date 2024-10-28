@@ -37,4 +37,19 @@ and modified the `django-google-login` example.  It essentially replaces the Goo
 6. Try it out.  Make sure the `nlip-iam` server is running and that it is on port 9000. 
 
         http://127.0.0.1:8000/
+		
+		
+## Screenshots of the Demo in Action
+
+The following screenshots show the test application interacting with the test OAuth server.
+
+
+![Login Page](./pictures/login-page-01.png)
+
+![Login Screen on OAuth Server](./pictures/login-screen-on-oauth-server.png)
+
+![Authorizing the Application](./pictures/authorization-page-01.png)
+
+![Logged In](./pictures/logged-in-with-jwt-shown-01.png)
+
 
