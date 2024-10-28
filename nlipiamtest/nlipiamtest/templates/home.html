@@ -1,0 +1,12 @@
+{% if user %}
+<pre>
+{{ user }}
+</pre>
+<hr>
+<form action="/logout/" method="post">
+  {% csrf_token %}
+  <button type="submit">LogOut</button>
+</form>
+{% else %}
+<a href="/login/">login</a>
+{% endif %}
